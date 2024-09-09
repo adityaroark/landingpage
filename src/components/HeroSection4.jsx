@@ -11,8 +11,7 @@ const HeroSection4 = () => {
           <div className="text-content">
             <h1>With Our Calender you can add events and save them based upon their status</h1>
             <p>
-              Our platform offers the tools you need to manage your projects efficiently and accurately. 
-              Leverage powerful features to streamline your workflow and ensure every detail is in place.
+            Our project management app features a powerful and intuitive calendar functionality designed to streamline your scheduling and enhance productivity. With an integrated calendar, you can effortlessly manage deadlines, track milestones, and schedule team meetings all in one place. The calendar supports various view options, including daily, weekly, and monthly layouts, providing flexibility to suit your needs.
             </p>
           </div>
           <div className="animation-content">

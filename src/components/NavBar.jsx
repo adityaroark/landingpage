@@ -4,14 +4,14 @@ import React from 'react';// Assuming you have some CSS for the navbar
 const NavBar = () => {
   return (
     <nav className="navbar">
-      <div className="brand-name">YourBrand</div>
+      <div className="brand-name">Manage Master</div>
       <ul>
         <li><a href="#hero">Home</a></li>
         <li><a href="#features">Features</a></li>
         <li><a href="#testimonials">Testimonials</a></li>
         <li><a href="#cta">Call to Action</a></li>
-        <li><a href="#footer">Footer</a></li>
         <li><a href="#contact">Contact Form</a></li>
+        <li><a href="#footer">Footer</a></li>
       </ul>
     </nav>
   );
