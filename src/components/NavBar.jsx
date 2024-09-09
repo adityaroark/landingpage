@@ -11,7 +11,6 @@ const NavBar = () => {
         <li><a href="#testimonials">Testimonials</a></li>
         <li><a href="#cta">Call to Action</a></li>
         <li><a href="#contact">Contact Form</a></li>
-        <li><a href="#footer">Footer</a></li>
       </ul>
     </nav>
   );
