@@ -1,18 +1,19 @@
-// components/NavBar.js
-import React from 'react';
+// components/NavBar.jsx
+import React from 'react';// Assuming you have some CSS for the navbar
 
 const NavBar = () => {
   return (
-    <nav class="navbar">
-    <div class="navbar-brand">BrandName</div>
-     <ul class="nav-links">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Features</a></li>
-    <li><a href="#">Testimonials</a></li>
-    <li><a href="#">Contact</a></li>
-  </ul>
-</nav>
-
+    <nav className="navbar">
+      <div className="brand-name">YourBrand</div>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#cta">Call to Action</a></li>
+        <li><a href="#footer">Footer</a></li>
+        <li><a href="#contact">Contact Form</a></li>
+      </ul>
+    </nav>
   );
 };
 

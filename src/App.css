@@ -71,7 +71,7 @@ button {
 .hero-section {
   position: relative;
   height: 90vh;
-  background-image: url('../public/team.jpg');
+  background-image: url('../public/49.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -288,6 +288,85 @@ button {
   background-color: #2980b9;
   transform: translateY(-3px);
 }
+
+/* Contact Form Styles */
+.contact-form-section {
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #f0f8ff 0%, #e6e6e6 100%); /* Light gradient background */
+  text-align: center;
+}
+
+.contact-form-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  border: 2px solid #3498db; /* Blue border for distinction */
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.form-description {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #3498db; /* Blue color on focus */
+  outline: none;
+}
+
+.cta-button {
+  background-color: #3498db;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 50px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #2980b9;
+  transform: translateY(-3px);
+}
+
 
 /* Footer */
 .footer {

@@ -107,6 +107,8 @@ import HeroSection2 from './components/HeroSection2';
 import HeroSection3 from './components/HeroSection3';
 import HeroSection4 from './components/HeroSection4';
 import NavBar from './components/NavBar';
+import ContactForm from './components/ContactForm'; // Import ContactForm component
+
 
 function App() {
   return (
@@ -187,15 +189,19 @@ function App() {
 
       <HeroSection4 />
 
+      {/* Contact Form */}
+      <ContactForm />
+
+
       {/* Footer */}
       <footer id="footer" className="footer zoom-effect">
         <div className="footer-container">
           <p>&copy; 2024 Elite Project Management. All rights reserved.</p>
           <ul className="footer-links">
+          <li><a href="#hero">Home</a></li>
             <li><a href="#features">Features</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#cta">Call to Action</a></li>
           </ul>
         </div>
       </footer>
