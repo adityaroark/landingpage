@@ -33,21 +33,17 @@ button {
 
 /* Navbar */
 .navbar {
-  background-color: transparent; /* Fully transparent */
+  background: linear-gradient(135deg, #6a0dad, #a76aff); /* Purple gradient */
   padding: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed; /* Stays at the top of the page */
-  width: 100%;
-  top: 0;
-  z-index: 1000; /* Keeps it above other elements */
 }
 
 .navbar .brand-name {
   font-size: 1.8rem;
   font-weight: bold;
-  color: #fff; /* White color for contrast */
+  color: #fff; /* White color for brand name for good contrast */
 }
 
 .navbar ul {
@@ -63,13 +59,30 @@ button {
 .navbar ul li a {
   font-size: 1.1rem;
   font-weight: 500;
-  color: #fff; /* White text color */
-  text-decoration: none; /* Remove underline */
-  position: relative;
-  padding-bottom: 3px;
+  color: #fff; /* White color for links */
+  text-decoration: none; /* Remove default underline */
+  position: relative; /* To position the custom underline */
+  padding-bottom: 3px; /* Slight space between text and underline */
   transition: color 0.3s ease;
 }
 
+.navbar ul li a::after {
+  content: ""; /* Creates an empty element for the underline */
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px; /* Thickness of the underline */
+  background-color: #fff; /* Default underline color */
+  transform: scaleX(0); /* Hide the underline initially */
+  transform-origin: bottom left;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar ul li a:hover::after {
+  transform: scaleX(1); /* Show the underline on hover */
+  background-color: #ffd700; /* Gold underline color on hover */
+}
 
 /* Hero Section */
 .hero-section {
